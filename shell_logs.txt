@@ -1,0 +1,500 @@
+   47  ./bump_test
+   48  python3 driver.py -w1
+   49  make clean
+   50  make debug
+   51  python3 driver.py -w1
+   52  python3 driver.py
+   53  ./heap_runner
+   54  make clean
+   55  make debug
+   56  make heap_runner
+   57  ./heap_runner
+   58  make clean
+   59  make debug
+   60  python3 driver.py -w1
+   61  python3 driver.py
+   62  make clean
+   63  make debug
+   64  make clean
+   65  make debug
+   66  python3 driver.py
+   67  python3 driver.py -w1
+   68  ./heap_runner
+   69  make clean
+   70  make debug
+   71  make clean
+   72  make debug
+   73  make heap_runner
+   74  ./runner
+   75  make
+   76  ./runner
+   77  ./heap_runner
+   78  make clean
+   79  make debug
+   80  ./heap_runner
+   81  python3 driver.py -w1
+   82  python3 driver.py
+   83  make clean
+   84  make debug
+   85  make clean
+   86  make debug
+   87  python3 driver.py
+   88  make clean
+   89  make debug
+   90  python3 driver.py
+   91  python3 driver.py -w1
+   92  python3 driver.py
+   93  make clean
+   94  make debug
+   95  make clean
+   96  make debug
+   97  python3 driver.py
+   98  python3 driver.py -w1
+   99  git commit -m check_heap.c
+  100  git push
+  101  make clean
+  102  make debug
+  103  make heap_runner
+  104  ./heap_runner
+  105  make clean
+  106  make debug
+  107  make clean
+  108  make debug
+  109  ./heap_runner
+  110  make clean
+  111  make debug
+  112  make debug
+  113  make clean
+  114  make debug
+  115  ./heap_runner
+  116  make clean
+  117  make debug
+  118  ./heap_runner
+  119  python3 driver.py
+  120  make clean
+  121  make debug
+  122  make clean
+  123  make debug
+  124  make clean
+  125  make debug
+  126  make clean
+  127  make debug
+  128  make clean
+  129  make debug
+  130  make clean
+  131  make debug
+  132  ./heap_runner
+  133  python3 driver.py -w1
+  134  python3 driver.py
+  135  git commit -m check_heap.c
+  136  git push
+  137  make clean
+  138  make debug
+  139  ./heap_runner
+  140  make clean
+  141  make debug
+  142  ./heap_runner
+  143  make clean
+  144  make debug
+  145  ./heap_runner
+  146  make clean
+  147  make debug
+  148  ./heap_runner
+  149  make clean
+  150  make debug
+  151  make clean
+  152  make debug
+  153  ./heap_runner
+  154  make clean
+  155  make debug
+  156  ./heap_runner
+  157  make clean
+  158  make debug
+  159  ./heap_runner
+  160  make clean
+  161  make debug
+  162  make clean
+  163  make debug
+  164  make clena
+  165  make clean
+  166  make debug
+  167  make clean
+  168  make debug
+  169  ./heap_runner
+  170  make clean
+  171  make debug
+  172  make clean
+  173  make debug
+  174  ./heap runner
+  175  ./heap_runner
+  176  python3 driver.py -w1
+  177  make clean
+  178  make debug
+  179  ./heap_runner
+  180  make debug
+  181  make clean
+  182  make debug
+  183  make clean
+  184  make debug
+  185  make clean
+  186  make debug
+  187  ./heap_runner
+  188  python3 driver.py -w1
+  189  python3 driver.py
+  190  git add
+  191  git commit -m check_heap.c
+  192  git push
+  193  make clean
+  194  make debug
+  195  python3 driver.py
+  196  ./heap_runner
+  197  python3 driver.py -w1
+  198  make clean
+  199  make debug
+  200  python3 driver.py
+  201  ./runner -r trace.rep
+  202  ./runner -r ./traces/week2/basic/amptjp.rep
+  203  make clean
+  204  make debug
+  205  ./heap_runner
+  206  ./runner -r ./traces/week2/basic/amptjp.rep
+  207  python3 driver.py -w1
+  208  python3 driver.py
+  209  make clean
+  210  make debug
+  211  ./heap_runner
+  212  python3 driver.py -w1
+  213  ./bump_test
+  214  make clena
+  215  make clean
+  216  make debug
+  217  ./heap_runner
+  218  ./runner -r ./traces/week2/basic/amptjp.rep
+  219  gdb bin/ci
+  220  make clean 
+  221  make debug
+  222  make clean
+  223  make debug
+  224  ./heap_runner
+  225  python3 driver.py -w1
+  226  python3 driver.py
+  227  make clean
+  228  make debug
+  229  ./heap_runner
+  230  python3 driver.py
+  231  ./runner -r ./traces/week2/basic/amptjp.rep
+  232  gdb --args ./runner -r ./traces/week2/basic/amptjp.rep
+  233  make clean
+  234  make all
+  235  make debug
+  236  ./runner -r ./traces/week2/basic/amptjp.rep
+  237  python3 driver.py
+  238  git commit -m check_heap.c
+  239  git push
+  240  python3 driver.py
+  241  ls
+  242  ../
+  243  cd ..
+  244  pwd
+  245  touch ~/.gdbinit
+  246  ls
+  247  ls -a
+  248  echo "set history save on"
+  249  echo "set history save on" > ~/.gdbinit
+  250  cat ~/.gdbinit
+  251  ssh-keygen -t ed25519
+  252  cat /u/emiliano/.ssh/id_ed25519.pub
+  253  mkdir UTCStesting
+  254  ls
+  255  cd UTCStesting
+  256  pwd
+  257  git clone ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICFvHaxvr38GPHzyFy58uV+L4KuZOa/yMUOjbBD1EFYe emiliano@alexandrite
+  258  git clone git@github.com:emilianorios2024/UTCStesting.git
+  259  pwd
+  260  git clone git@github.com:emilianorios2024/UTCStesting.git
+  261  git clone git@github.com:emilianorios2024/UTCStesting.git
+  262  ls
+  263  cd UTCStesting
+  264  pwd
+  265  bash
+  266  ls
+  267  make
+  268  make
+  269  make
+  270  make
+  271  ls
+  272  cd UTCStesting
+  273  make
+  274  ./mini_ci testcases/basic_add.s
+  275  make check
+  276  make clean
+  277  ./mini_ci testcases/basic_add.s
+  278  bash
+  279  ./mini_ci testcases/basic_add.s
+  280  ./mini_ci testcases/basic_add.s
+  281  ./mini_ci testcases/basic_add.s
+  282  ./mini_ci testcases/basic_add.s
+  283  ls
+  284  make
+  285  ls
+  286  ./mini_ci testcases/basic_add.s
+  287  make debug
+  288  make clean
+  289  make debug
+  290  gdb mini_ci
+  291  make clean
+  292  make
+  293  ./mini_ci testcases/basic_add.s
+  294  make cleanmake clean
+  295  make clean
+  296  make
+  297  make
+  298  make clean
+  299  make debug
+  300  ./mini_ci testcases/basic_add.s
+  301  ./mini_ci testcases/basic_add.s
+  302  ./mini_ci testcases/basic_div.s
+  303  ./mini_ci_reference/basic_div.s
+  304  ./mini_ci_reference basic_div.s
+  305  ./mini_ci_reference/basic_div.s
+  306  make 
+  307  ./mini_ci_reference testcases/basic_div.s
+  308  mini_ci_reference testcases/basic_div.s
+  309  ./mini_ci_reference testcases/basic_div.s
+  310  make clean
+  311  make debug
+  312  make check
+  313  ls
+  314  cd UTCStesting/
+  315  ls
+  316  make
+  317  make clean
+  318  make 
+  319  make clean
+  320  make
+  321  ./mini_ci_reference
+  322  ls -l mini_ci_reference
+  323  chmod +x mini_ci_reference
+  324  ./mini_ci_reference
+  325  make check
+  326  make clean
+  327  make debug
+  328  mini_ci testcases/basic_sub.s
+  329  mini_ci testcases/err_ops.s
+  330  make clean
+  331  make debug
+  332  gdb
+  333  gdb mini_ci
+  334  mini_ci testcases/err_ops.s
+  335  make cleanmak
+  336  make clean
+  337  make 
+  338  mini_ci testcases/err_ops.s
+  339  make check
+  340  make cleanA
+  341  make debug
+  342  gdb mini_ci
+  343  make clean
+  344  make
+  345  mini_ci testcases/err_ops2.s
+  346  make clean
+  347  make
+  348  mini_ci testcases/err_ops2.s
+  349  make check
+  350  history 
+  351  hisotry > logfile.txt
+  352  history > logfile.txt
+  353  ls
+  354  echo logfile.txt 
+  355  cat logfile.txt 
+  356  make clean
+  357  make debug
+  358  gdb
+  359  git status
+  360  git add .
+  361  git status
+  362  git commmit -m "finished"
+  363  git commit -m "finished"
+  364  git status
+  365  git push
+  366  cd ..
+  367  cd UTCStesting/
+  368  git log
+  369  ls
+  370  cd UTCStesting/
+  371  cd ..
+  372  rm -rf UTCStesting
+  373  ls
+  374  ls
+  375  pwd
+  376  touch ~/.gdbinit
+  377  ls
+  378  ls -a
+  379  echo set history save on > ~/.gdbinit
+  380  cat ~/.gdbinit
+  381  ls
+  382  ls -a
+  383  cat ~/.gdbinit
+  384  mkdir versionb
+  385  cd versionb/
+  386  pwd
+  387  git clone git@github.com:emilianorios2024/test-1.git
+  388  ls
+  389  cd test-1/
+  390  ls
+  391  ls
+  392  cd
+  393  ls
+  394  pwd
+  395  cd versionb/
+  396  ls
+  397  cd test-1/
+  398  ls
+  399  cd mastery-version-b-master/
+  400  ls
+  401  ls
+  402  make
+  403  cd test-1/
+  404  cd test-1/
+  405  make
+  406  cd test-1/
+  407  pwd
+  408  ls
+  409  cd test-1/
+  410  ls
+  411  cd mastery-version-b-master/
+  412  make
+  413   ./mini_ci testcases/basic_add.s
+  414  make check
+  415  chmod +x mini_ci_reference
+  416  ls -a
+  417  ls -l
+  418  make clean
+  419  make
+  420  make check
+  421  make clean
+  422  make debug
+  423  gdc mini_ci
+  424  clear
+  425  gdb mini_ci
+  426  make
+  427  ./mini_ci
+  428  ./mini_ci testcases/basic_add.s
+  429  make
+  430  ./mini_ci testcases/basic_add.s
+  431  make check
+  432  cd ..
+  433  rm -rf test-1
+  434  ls
+  435  cd ..
+  436  rm -rf test-1
+  437  cd
+  438  git clone git@github.com:CS429-FA2025/shared-repo-version-b-emilianorios2024.git
+  439  git remote -v
+  440  make trex
+  441  make stego
+  442  make trex
+  443  make trex
+  444  git remote -v
+  445  make stego
+  446  make trex
+  447  orderlogs testcases/all_new
+  448  ./orderlogs testcases/all_new
+  449  ls
+  450  ./BIN_DIR testcases/all_
+  451  cd bin
+  452  ls
+  453  make
+  454  make trex
+  455  ls
+  456  ./orderlogs testcases/all_new
+  457  cd ..
+  458  ls
+  459  cd bin/
+  460  ls
+  461  ./orderlogs
+  462  ./orderlogs -f testcases/all_new
+  463  ./orderlogs -f
+  464  ./orderlogs -f all_new
+  465  ./orderlogs -f
+  466  make clean
+  467  cd ..
+  468  make spinosaurus
+  469  make trike
+  470  gdc orderlogs
+  471  gdc reorder.c
+  472  ls
+  473  cd bin
+  474  ls
+  475  cd ..
+  476  bin orderlogs testcases/all_new
+  477  ls -l
+  478  cd bin
+  479  ls -l
+  480  ./orderlogs
+  481  ./orderlogs testcases/all_new
+  482  -f ./orderlogs testcases/all_new
+  483  history > shell_logs.txt
+  484  cat shell_logs.txt
+  485  git status
+  486  git add .
+  487  git status
+  488  git add .
+  489  git commit -m "a"
+  490  git push
+  491  cd ..
+  492  /..
+  493  cd ..
+  494  rm -rf shared-repo-version-b-emilianorios2024/
+  495  ls
+  496  git clone git@github.com:emilianorios2024/bruh.git
+  497  ls
+  498  cd bruh
+  499  ls
+  500  make stitch
+  501  ./second_trie
+  502  ls
+  503  ls
+  504  ./bin/second_trie
+  505  ./bin/second_trie testcases/dinosaurs.in
+  506  ./bin/second_trie - w  testcases/dinosaurs.in
+  507  cd bin
+  508  ls
+  509  ./second_trie
+  510  ./second_trie -w
+  511  ./second_trie -w testcases
+  512  ./second_trie -w testcases/easy.in
+  513  ./second_trie -w easy.in
+  514  cd .
+  515  cd ..
+  516  ls
+  517  ./bin/second_trie
+  518  ./bin/second_trie -w
+  519  ./bin/second_trie -w testcases/easy.in
+  520  make nani
+  521  chmod +x filename
+  522  chmod +x filename
+  523  chmod +x filename
+  524  chmod +X trie_ref
+  525  make nani
+  526  ls -l trie_ref
+  527  chmod +x trie_ref
+  528  make nani
+  529  ls -l trie_ref
+  530  ./bin/second_trie -w testcases/dinosaurs.in
+  531  make cobra
+  532  make lilo
+  533  gdb second_trie
+  534  gdb bin/second_trie
+  535  make stitch
+  536*  -w testcases/dinosaurs.in
+  537  make nani
+  538  make cobra
+  539  make stitch
+  540  ./bin/second_trie_ref -w testcases/dinosaurs.in
+  541  trie_ref -w testcases/dinosaurs.in
+  542  make nani
+  543  history
+  544  show commads
+  545  history
+  546  history > shell_logs.txt
